@@ -1,0 +1,50 @@
+{
+	"entry" : {
+		"identifier" : "465456",
+		"date" : "2011-02-23T12:45:00",
+		"long" : " 1.44194",
+		"lat" : " 43.6044",
+		"ele" : "189",
+		"building" : {
+			"identifier" : "789879879",
+			"peoplesNb" : "510",
+			"state" : "bon"
+		},
+		"media" : {
+			"video" : [{
+						"identifier" : "465456_1",
+						"name" : "video1",
+						"directory" : "/video/",
+						"extension" : ".3gp"
+					}, {
+						"identifier" : "465456_2",
+						"name" : "video2",
+						"directory" : "/video/",
+						"extension" : ".3gp"
+					}],
+			"photo" : [{
+						"identifier" : "465456_1",
+						"name" : "photo1",
+						"directory" : "/photo/",
+						"extension" : ".jpg"
+					}, {
+						"identifier" : "465456_2",
+						"name" : "photo2",
+						"directory" : "/photo/",
+						"extension" : ".jpg"
+					}, {
+						"identifier" : "465456_3",
+						"name" : "photo3",
+						"directory" : "/photo/",
+						"extension" : ".jpg"
+					}],
+			"audio" : [{
+						"identifier" : "465456_1",
+						"name" : "audio1",
+						"directory" : "/audio/",
+						"extension" : ".mp3"
+					}]
+		},
+		"notes" : "texte de la note 465456"
+	}
+}

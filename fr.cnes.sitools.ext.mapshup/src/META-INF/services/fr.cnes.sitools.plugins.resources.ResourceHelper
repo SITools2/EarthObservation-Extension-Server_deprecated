@@ -1,0 +1,6 @@
+fr.cnes.sitools.ext.jeobrowser.describe.opensearch.resources.JeoOpensearchDescribeResourceModel
+fr.cnes.sitools.ext.jeobrowser.upload.JeoUploadResourceModel
+fr.cnes.sitools.ext.jeobrowser.upload.JeoInsertRecordResourceModel
+fr.cnes.sitools.ext.jeobrowser.describe.dataset.resources.JeoDatasetDescribeResourceModel
+fr.cnes.sitools.ext.jeobrowser.search.resources.JeoSearchResourceModel
+fr.cnes.sitools.ext.jeobrowser.search.resources.JeoSearchSpecificResourceModel

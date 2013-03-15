@@ -1,0 +1,25 @@
+<projectModule>
+  <id>263a1487-6c63-4181-a04a-64d83f6a0f45</id>
+  <name>MapShup</name>
+  <description>The MapShup demonstrator module</description>
+  <author>Akka Technologies</author>
+  <version>1</version>
+  <imagePath>http://sitools.akka.eu:8184/sitools/upload/logo.png</imagePath>
+  <title>MapShup</title>
+  <defaultWidth>800</defaultWidth>
+  <defaultHeight>600</defaultHeight>
+  <x>50</x>
+  <y>50</y>
+  <icon>http://sitools.akka.eu:8184/sitools/upload/logo.png</icon>
+  <specificType></specificType>
+  <xtype>sitools.component.htmlModuleMapShup</xtype>
+  <dependencies>
+    <js>
+      <url>
+        <url>/sitools/client-user/js/modules/htmlModuleMapShup/htmlModuleJeobrowser.js</url>
+      </url>
+    </js>
+    <css/>
+  </dependencies>
+  <priority>1</priority>
+</projectModule>
