@@ -43,7 +43,7 @@
       <resourceParameter>
         <name>templateFilename</name>
         <description>freemarker template filename (file must be in TEMPLATE_DIR)</description>
-        <value>{$ROOT_DIRECTORY}/workspace/fr.cnes.sitools.ext.mapshup/src/fr/cnes/sitools/ext/jeobrowser/opensearchTemplate.ftl</value>
+        <value>{$ROOT_DIRECTORY}/extensions/mapshup/fr.cnes.sitools.ext.mapshup/src/fr/cnes/sitools/ext/jeobrowser/opensearchTemplate.ftl</value>
         <valueType>xs:string</valueType>
         <type>PARAMETER_INTERN</type>
       </resourceParameter>
