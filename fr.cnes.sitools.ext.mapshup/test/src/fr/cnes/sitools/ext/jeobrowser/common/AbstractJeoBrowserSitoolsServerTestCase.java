@@ -41,7 +41,7 @@ public abstract class AbstractJeoBrowserSitoolsServerTestCase extends AbstractSi
     Engine.clearThreadLocalVariables();
     settings = SitoolsSettings.getInstance("sitools", Starter.class.getClassLoader(), Locale.FRANCE, true);
 
-    String source = settings.getRootDirectory() + "/workspace/fr.cnes.sitools.ext.mapshup/test/data";
+    String source = settings.getRootDirectory() + "/extensions/mapshup/fr.cnes.sitools.ext.mapshup/test/data";
     String cible = settings.getRootDirectory() + TEST_FILES_REPOSITORY + "_mapshup";
 
     LOGGER.info("COPY SOURCE:" + source + " CIBLE:" + cible);
