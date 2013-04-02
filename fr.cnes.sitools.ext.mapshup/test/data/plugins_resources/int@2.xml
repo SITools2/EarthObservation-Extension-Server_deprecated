@@ -1,0 +1,43 @@
+<resourcePlugin>
+  <id>144b6341-33c5-4ad3-b5df-ba1943de9890</id>
+  <name>JeoInsertRecordsResourceModel</name>
+  <description>Plugin resource to insert a record on a single table dataset</description>
+  <className>fr.cnes.sitools.ext.jeobrowser.upload.JeoInsertRecordResourceModel</className>
+  <classVersion>0.1</classVersion>
+  <classAuthor>AKKA technologies</classAuthor>
+  
+  <parametersMap>
+    <entry>
+      <string>url</string>
+      <resourceParameter>
+        <name>url</name>
+        <description>attachment url</description>
+        <value>/jeo/records/insert</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_ATTACHMENT</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>dictionary_name</string>
+      <resourceParameter>
+        <name>dictionary_name</name>
+        <description>The name of the dictionary to use</description>
+        <value>JeoDictionary</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>fileName</string>
+      <resourceParameter>
+        <name>fileName</name>
+        <description>The name of the file to generate. Fill it to download a file. Leave it Empty to view resource Representation.</description>
+        <value></value>
+        <valueType>xs:template</valueType>
+        <type>PARAMETER_USER_INPUT</type>
+      </resourceParameter>
+    </entry>
+  </parametersMap>
+  <parent>4b0d5e4f-b01d-45a9-a07c-f126146103a7</parent>
+  <resourceClassName>fr.cnes.sitools.ext.jeobrowser.upload.JeoInsertRecordResource</resourceClassName>
+</resourcePlugin>

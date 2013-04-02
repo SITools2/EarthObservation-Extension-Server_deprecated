@@ -1,0 +1,5 @@
+fr.cnes.sitools.ext.jeobrowser.search.filter.JeoBoxFilter
+fr.cnes.sitools.ext.jeobrowser.search.filter.JeoLatLongRadiusFilter
+fr.cnes.sitools.ext.jeobrowser.search.filter.JeoTimeFilter
+fr.cnes.sitools.ext.jeobrowser.search.filter.JeoSearchTermsFilter
+fr.cnes.sitools.ext.jeobrowser.search.filter.JeoSpecificSearchFilter

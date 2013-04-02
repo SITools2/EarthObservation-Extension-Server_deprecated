@@ -1,0 +1,42 @@
+<!-- ===================================
+==  Copyright 2011, 2012 CNES - CENTRE NATIONAL d'ETUDES SPATIALES
+==  
+==  This file is part of SITools2.
+==  
+==  SITools2 is free software: you can redistribute it and/or modify
+==  it under the terms of the GNU General Public License as published by
+==  the Free Software Foundation, either version 3 of the License, or
+==  (at your option) any later version.
+==  
+==  SITools2 is distributed in the hope that it will be useful,
+==  but WITHOUT ANY WARRANTY; without even the implied warranty of
+==  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+==  GNU General Public License for more details.
+==  
+==  You should have received a copy of the GNU General Public License
+==  along with SITools2.  If not, see <http://www.gnu.org/licenses/>.
+==================================== -->
+<!DOCTYPE project [
+   <!ENTITY struct  SYSTEM "build/struct.xml">
+<!ENTITY taskdef SYSTEM "build/taskdef.xml">
+<!ENTITY targets SYSTEM "build/targets.xml"> 
+]>
+<project name="fr.cnes.sitools.ext.mapshup" default="build-ext-mapshup" basedir=".">
+
+	<!-- Import des properties -->
+	&struct;
+	<!-- Import des tasks -->
+	&taskdef;
+	<!-- Import des targets -->
+	&targets;
+	
+	<target name="build-ext-mapshup"
+	depends="init, clean, prepare, cleanup-extensions, prepare-extensions,compile-extensions,jar-extensions" />
+
+	<target name="execute-tests-jeobrowser" depends="test-init, test-compile, test" />
+	
+	<target name="javadoc-project" description="Generation du ZIP contenant la javadoc du projet" depends="init, clean, prepare, javadoc, javadoc-tests" />
+	
+	
+</project>
+

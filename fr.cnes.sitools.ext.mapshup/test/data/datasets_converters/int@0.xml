@@ -1,0 +1,51 @@
+<converterChainedModel>
+  <id>fc266ef7-2d99-4010-8487-34d7f3486566</id>
+  <parent>fc266ef7-2d99-4010-8487-34d7f3486566</parent>
+  <converters>
+    <converterModel>
+      <id>e87fbbfc-5d0a-44b8-9f7a-81e319445e54</id>
+      <name>DateConverter</name>
+      <description>A converter for date</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.converters.DateConverter</className>
+      <descriptionAction></descriptionAction>
+      <classVersion>0.3</classVersion>
+      <classAuthor>AKKA/CNES</classAuthor>
+      <parametersMap>
+        <entry>
+          <string>template_in</string>
+          <converterParameter>
+            <name>template_in</name>
+            <description>The input date template format</description>
+            <value>yyyy-MM-dd</value>
+            <valueType>string</valueType>
+            <parameterType>CONVERTER_PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </converterParameter>
+        </entry>
+        <entry>
+          <string>column</string>
+          <converterParameter>
+            <name>column</name>
+            <description>The column to convert</description>
+            <value></value>
+            <valueType>xs:string</valueType>
+            <parameterType>CONVERTER_PARAMETER_INOUT</parameterType>
+            <attachedColumn>date</attachedColumn>
+          </converterParameter>
+        </entry>
+        <entry>
+          <string>template_out</string>
+          <converterParameter>
+            <name>template_out</name>
+            <description>The output date template format</description>
+            <value>yyyy-MM-dd&apos;T&apos;HH:mm:ss</value>
+            <valueType>string</valueType>
+            <parameterType>CONVERTER_PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </converterParameter>
+        </entry>
+      </parametersMap>
+      <status>ACTIVE</status>
+    </converterModel>
+  </converters>
+</converterChainedModel>

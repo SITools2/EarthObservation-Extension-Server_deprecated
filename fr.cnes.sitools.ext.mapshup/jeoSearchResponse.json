@@ -1,0 +1,35 @@
+{ "entry" : {
+	"idEntry" : "465456",
+	"date" : "06-09-11 15 :00",
+	"long" : " 1.44194",
+	"lat" : " 43.6044",
+	"alt" : "189",
+	"user" : {
+		"idUser" : "564654546",
+		"name" : "toto"
+	},
+	"building" : {
+		"idBuilding" : "789879879",
+		"peoplesNb" : " 5 – 10",
+		"state" : "bon"
+	},
+	"media" : {
+		"nbVideo" : "2",
+		"nbPhoto" : "3",
+		"nbAudio" : "1",
+		"video" : [
+				{"idVideo" : "464556222", "name" : "video1", "directory" : "/video/"},
+				{"idVideo" : "464556223", "name" : "video2", "directory" : "/video/"}
+		],
+		"photo" : [
+				{"idPhoto" : "464556232", "name" : "photo1", "directory" : "/photo/"},
+				{"idPhoto" : "464556233", "name" : "photo2", "directory" : "/photo/"},
+				{"idPhoto" : "464556234", "name" : "photo3", "directory" : "/photo/"}
+			],
+		"audio" : [
+				{"idAudio" : "464556242", "name" : "audio1", "directory" : "/audio/"}
+		]
+	},
+	"text" : "voici un commentaire"
+}
+}

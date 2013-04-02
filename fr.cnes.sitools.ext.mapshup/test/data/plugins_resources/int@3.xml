@@ -1,0 +1,124 @@
+<resourcePlugin>
+  <id>fe86e285-3f8a-468b-8246-7ff0abcb2167</id>
+  <name>JeoDescriptionServiceModel</name>
+  <description>Plugin resource for opensearch service desciption, entry point for jeoBrowser</description>
+  <className>fr.cnes.sitools.ext.jeobrowser.describe.opensearch.resources.JeoOpensearchDescribeResourceModel</className>
+  <descriptionAction>description</descriptionAction>
+  <classVersion>0.1</classVersion>
+  <classAuthor>AKKA technologies</classAuthor>
+  
+  <parametersMap>
+    <entry>
+      <string>tags</string>
+      <resourceParameter>
+        <name>tags</name>
+        <description>tags associated</description>
+        <value>sitools2</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>template</string>
+      <resourceParameter>
+        <name>template</name>
+        <description>template of the open search</description>
+        <value>http://localhost:8182/jeodataset/sva/1801deae-b618-46a2-aaf5-9101f9062ee5/tasks?q={searchTerms}&amp;pw={startPage?}&amp;count={count?}&amp;start={start?}&amp;bbox={geo:box?}&amp;format=json&amp;startDate={time:start?}&amp;completionDate={time:stop?}&amp;lat={geo:lat?}&amp;lon={geo:lon?}&amp;r={geo:radius?}</value>
+        <valueType>xs:url</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>longname</string>
+      <resourceParameter>
+        <name>longname</name>
+        <description>long name of the open search</description>
+        <value>SITools example search</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>templateFilename</string>
+      <resourceParameter>
+        <name>templateFilename</name>
+        <description>freemarker template filename (file must be in TEMPLATE_DIR)</description>
+        <value>{$ROOT_DIRECTORY}/extensions/mapshup/fr.cnes.sitools.ext.mapshup/src/fr/cnes/sitools/ext/jeobrowser/opensearchTemplate.ftl</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>description</string>
+      <resourceParameter>
+        <name>description</name>
+        <description>description of the open search</description>
+        <value>SITools2 connector example to jeoBrowser</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>name</string>
+      <resourceParameter>
+        <name>name</name>
+        <description>name of the open search</description>
+        <value>SITOOLS2 search</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>dictionary_name</string>
+      <resourceParameter>
+        <name>dictionary_name</name>
+        <description>The name of the dictionary to use</description>
+        <value>JeoDictionary</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>contact</string>
+      <resourceParameter>
+        <name>contact</name>
+        <description>contact for this service</description>
+        <value>admin@sitools2.com</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>url</string>
+      <resourceParameter>
+        <name>url</name>
+        <description>attachment url</description>
+        <value>/jeo/opensearch.xml</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_ATTACHMENT</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>url_description</string>
+      <resourceParameter>
+        <name>url_description</name>
+        <description>The Url of the search description service</description>
+        <value>http://localhost:8182/jeo/opensearch/describe</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>fileName</string>
+      <resourceParameter>
+        <name>fileName</name>
+        <description>The name of the file to generate. Fill it to download a file. Leave it Empty to view resource Representation.</description>
+        <value></value>
+        <valueType>xs:template</valueType>
+        <type>PARAMETER_USER_INPUT</type>
+      </resourceParameter>
+    </entry>
+  </parametersMap>
+  <parent>07cd2a7a-a992-4671-b4b8-91b7f5edb2fc</parent>
+  <resourceClassName>fr.cnes.sitools.ext.jeobrowser.describe.opensearch.resources.JeoOpensearchDescribeResource</resourceClassName>
+</resourcePlugin>

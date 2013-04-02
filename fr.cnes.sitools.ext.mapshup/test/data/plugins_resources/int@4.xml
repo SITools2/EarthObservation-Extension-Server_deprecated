@@ -1,0 +1,43 @@
+<resourcePlugin>
+  <id>ad94d881-ca3d-421f-ab30-3c1e63a4a30a</id>
+  <name>JeoRefreshEnumerationResourceModel</name>
+  <description>Resource plugin to refresh enumerations values</description>
+  <className>fr.cnes.sitools.ext.jeobrowser.describe.dataset.resources.JeoDatasetDescribeResourceModel</className>
+  <classVersion>0.1</classVersion>
+  <classAuthor>AKKA technologies</classAuthor>
+  
+  <parametersMap>
+    <entry>
+      <string>dictionary_name</string>
+      <resourceParameter>
+        <name>dictionary_name</name>
+        <description>The name of the dictionary to use</description>
+        <value>JeoDictionary</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>url</string>
+      <resourceParameter>
+        <name>url</name>
+        <description>attachment url</description>
+        <value>/jeo/opensearch/refresh</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_ATTACHMENT</type>
+      </resourceParameter>
+    </entry>    
+    <entry>
+      <string>fileName</string>
+      <resourceParameter>
+        <name>fileName</name>
+        <description>The name of the file to generate. Fill it to download a file. Leave it Empty to view resource Representation.</description>
+        <value></value>
+        <valueType>xs:template</valueType>
+        <type>PARAMETER_USER_INPUT</type>
+      </resourceParameter>
+    </entry>
+  </parametersMap>
+  <parent>07cd2a7a-a992-4671-b4b8-91b7f5edb2fc</parent>
+  <resourceClassName>fr.cnes.sitools.ext.jeobrowser.describe.dataset.resources.JeoDatasetDescribeResource</resourceClassName>
+</resourcePlugin>

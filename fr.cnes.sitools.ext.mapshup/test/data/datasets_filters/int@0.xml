@@ -1,0 +1,289 @@
+<filterChainedModel>
+  <id>07cd2a7a-a992-4671-b4b8-91b7f5edb2fc</id>
+  <parent>07cd2a7a-a992-4671-b4b8-91b7f5edb2fc</parent>
+  <filters>
+    <filterModel>
+      <id>0ab4121b-ad16-4bd1-8985-556fa5c2d79a</id>
+      <name>GridFilter</name>
+      <description>Required when using filtering via LiveGrid ExtJs</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.GridFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>5e7e7686-228b-46fc-86f7-551bb68a6368</id>
+      <name>SingleValueFilter</name>
+      <description>Required when using Single Value Component</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.SingleValueFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>8fc6d399-04e4-4275-a09d-6827a578e351</id>
+      <name>MultipleValueFilter</name>
+      <description>Required when using Multiple Value Components</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.MultipleValueFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>5a2c2e41-520b-4756-ae93-162566fdca3e</id>
+      <name>NumericBetweenFilter</name>
+      <description>Required when using Numeric Between Components</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.NumericBetweenFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>a3dd18e3-34ee-4116-a173-b9519988da8f</id>
+      <name>DateBetweenFilter</name>
+      <description>Required when using Date Between Components</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.DateBetweenFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>da2a3e70-b8d2-4c81-be33-d588b1add5f1</id>
+      <name>OneOrBetweenFilter</name>
+      <description>Required when using One Or Between Components</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.OneOrBetweenFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>ccee2cca-7204-4564-aa28-9282923c9144</id>
+      <name>ConeSearchCartesien</name>
+      <description>Required when using cartesian cone search  Component</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.ConeSearchCartesienFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>34a254f7-15e7-4958-851a-b51317fc3a50</id>
+      <name>ConeSearchPgSphere</name>
+      <description>Required when using PgSphere cone search  Component</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.ConeSearchPgSphereFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>230c8142-a239-45bc-9633-d17652961481</id>
+      <name>NumberFieldFilter</name>
+      <description>Filter on the number datatype</description>
+      <className>fr.cnes.sitools.dataset.plugins.filters.core.NumberFieldFilter</className>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap/>
+      <status>ACTIVE</status>
+    </filterModel>    
+    <filterModel>
+      <id>1d07089e-abb3-4cc7-b0ed-889c1fb5df54</id>
+      <name>JeoBoxFilter</name>
+      <description>Required when using Box Jeo parameters</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.filter.JeoBoxFilter</className>
+      <descriptionAction></descriptionAction>
+      <parametersMap>
+        <entry>
+          <string>dictionary_name</string>
+          <filterParameter>
+            <name>dictionary_name</name>
+            <description>The name of the dictionary to use</description>
+            <value>JeoDictionary</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>bbox_param_name</string>
+          <filterParameter>
+            <name>bbox_param_name</name>
+            <description>The name of the url parameter to use for bbox search (bbox in bbox={geo:box})</description>
+            <value>bbox</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+      </parametersMap>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>1d0aaaaa-abb3-4cc7-b0ed-889c1fb5df54</id>
+      <name>JeoLatLongRadiusFilter</name>
+      <description>Required when using Lat long Jeo parameters</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.filter.JeoLatLongRadiusFilter</className>
+      <descriptionAction></descriptionAction>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      <parametersMap>
+        <entry>
+          <string>dictionary_name</string>
+          <filterParameter>
+            <name>dictionary_name</name>
+            <description>The name of the dictionary to use</description>
+            <value>JeoDictionary</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>lat_param_name</string>
+          <filterParameter>
+            <name>lat_param_name</name>
+            <description>The name of the url parameter to use for lat parameter in the search (lat in lat={geo:lat?})</description>
+            <value>lat</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>lon_param_name</string>
+          <filterParameter>
+            <name>lon_param_name</name>
+            <description>The name of the url parameter to use for lon parameter in the search (lon in lon={geo:lon?})</description>
+            <value>lon</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>r_param_name</string>
+          <filterParameter>
+            <name>r_param_name</name>
+            <description>The name of the url parameter to use for radius parameter in the search (r in r={geo:radius?})</description>
+            <value>r</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+      </parametersMap>      
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>azedsqasd-aaaa-4cc7-b0ed-889c1fb5df54</id>
+      <name>JeoTimeFilter</name>
+      <description>Required when using time Jeo parameters</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.filter.JeoTimeFilter</className>
+      <descriptionAction></descriptionAction>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      
+      <parametersMap>
+        <entry>
+          <string>dictionary_name</string>
+          <filterParameter>
+            <name>dictionary_name</name>
+            <description>The name of the dictionary to use</description>
+            <value>JeoDictionary</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>start_param_name</string>
+          <filterParameter>
+            <name>start_param_name</name>
+            <description>The key of the parameter to use for time start search (start in dtstart={time:start})</description>
+            <value>startDate</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>end_param_name</string>
+          <filterParameter>
+            <name>end_param_name</name>
+            <description>"The key of the parameter to use for time end search (end in dtend={time:start})</description>
+            <value>completionDate</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+      </parametersMap>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>1d07089e-abb3-4cc7-b0ed-874532qsdqs</id>
+      <name>JeoSearchTermsFilter</name>
+      <description>Required when using SearchTerms JeoBrowser parameters</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.filter.JeoSearchTermsFilter</className>
+      <descriptionAction></descriptionAction>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      
+      <parametersMap>
+        <entry>
+          <string>dictionary_name</string>
+          <filterParameter>
+            <name>dictionary_name</name>
+            <description>The name of the dictionary to use</description>
+            <value>JeoDictionary</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+        <entry>
+          <string>search_terms_param_name</string>
+          <filterParameter>
+            <name>search_terms_param_name</name>
+            <description>The name of the url parameter to use for searchTerms search (q in q={searchTerms})</description>
+            <value>q</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>
+      </parametersMap>
+      <status>ACTIVE</status>
+    </filterModel>
+    <filterModel>
+      <id>aaaaaaa-abb3-4cc7-b0ed-874532qsdqs</id>
+      <name>JeoSpecificSearchFilter</name>
+      <description>Required when using specified JeoBrowser parameters search</description>
+      <className>fr.cnes.sitools.ext.jeobrowser.search.filter.JeoSpecificSearchFilter</className>
+      <descriptionAction></descriptionAction>
+      <classVersion>0.1</classVersion>
+      <classAuthor>AKKA</classAuthor>
+      
+      <parametersMap>
+        <entry>
+          <string>dictionary_name</string>
+          <filterParameter>
+            <name>dictionary_name</name>
+            <description>The name of the dictionary to use</description>
+            <value>JeoDictionary</value>
+            <valueType>xs:string</valueType>
+            <parameterType>PARAMETER_INTERN</parameterType>
+            <attachedColumn></attachedColumn>
+          </filterParameter>
+        </entry>        
+      </parametersMap>
+      <status>ACTIVE</status>
+    </filterModel>
+  </filters>
+</filterChainedModel>

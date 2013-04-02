@@ -1,0 +1,95 @@
+<resourcePlugin>
+  <id>9ca02b83-a56b-4339-ba96-bfb9e8f4e81f</id>
+  <name>JeoSearchSpecificResourceModel</name>
+  <description>GEO JSON export on the fly</description>
+  <className>fr.cnes.sitools.ext.jeobrowser.search.resources.JeoSearchSpecificResourceModel</className>
+  <classVersion>0.1</classVersion>
+  <classAuthor>AKKA</classAuthor>
+  
+  <parametersMap>
+    <entry>
+      <string>methods</string>
+      <resourceParameter>
+        <name>methods</name>
+        <description>List of methods implemented for this resource, separate by |</description>
+        <value>GET</value>
+        <valueType>xs:enum-multiple[GET, POST, PUT, DELETE]</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>col_name</string>
+      <resourceParameter>
+        <name>col_name</name>
+        <description>The column used as name for the media (in the media dataset)</description>
+        <value>name</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>col_url</string>
+      <resourceParameter>
+        <name>col_url</name>
+        <description>The column used as url for the media (in the media dataset)</description>
+        <value>url</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>dictionary_name</string>
+      <resourceParameter>
+        <name>dictionary_name</name>
+        <description>The name of the dictionary to use</description>
+        <value>JeoDictionary</value>
+        <valueType>xs:dictionary:name</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>col_identifier</string>
+      <resourceParameter>
+        <name>col_identifier</name>
+        <description>The column used as identifier for the media (in the media dataset)</description>
+        <value>identifier</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>url</string>
+      <resourceParameter>
+        <name>url</name>
+        <description>attachment url</description>
+        <value>/search</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_ATTACHMENT</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>col_type</string>
+      <resourceParameter>
+        <name>col_type</name>
+        <description>The column used as the type of media (in the media dataset)</description>
+        <value>type</value>
+        <valueType>xs:string</valueType>
+        <type>PARAMETER_INTERN</type>
+      </resourceParameter>
+    </entry>
+    <entry>
+      <string>fileName</string>
+      <resourceParameter>
+        <name>fileName</name>
+        <description>The name of the file to generate. Fill it to download a file. Leave it Empty to view resource Representation.</description>
+        <value></value>
+        <valueType>xs:template</valueType>
+        <type>PARAMETER_USER_INPUT</type>
+      </resourceParameter>
+    </entry>
+  </parametersMap>
+  <parent>07cd2a7a-a992-4671-b4b8-91b7f5edb2fc</parent>
+  <resourceClassName>fr.cnes.sitools.ext.jeobrowser.search.resources.JeoSearchSpecificResource</resourceClassName>
+  <applicationClassName>fr.cnes.sitools.dataset.DataSetApplication</applicationClassName>
+  <dataSetSelection>ALL</dataSetSelection>
+</resourcePlugin>
