@@ -4,20 +4,5 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test/src"/>
-	<classpathentry kind="lib" path="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/org.restlet.jar" sourcepath="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/src/org.restlet">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/D:/CNES-ULISSE/cots/restlet-2.0.5-patched/docs/api/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/org.restlet.ext.json.jar" sourcepath="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/src/org.restlet.ext.json">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/D:/CNES-ULISSE/cots/restlet-2.0.5-patched/docs/ext/org/restlet/ext/json/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/org.restlet.ext.fileupload.jar" sourcepath="D:/CNES-ULISSE/cots/restlet-2.0.5-patched/src/org.restlet.ext.fileupload">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/D:/CNES-ULISSE/cots/restlet-2.0.5-patched/docs/ext/org/restlet/ext/fileupload/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="out/classes"/>
 </classpath>
